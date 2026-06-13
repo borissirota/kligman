@@ -20,6 +20,7 @@ export function AgbPage() {
       <p className="mt-4 text-neutral-700">
         Die AGB werden im Laufe der Zeit aktualisiert und ersetzt.
       </p>
+      <p className="mt-10 text-sm text-neutral-600">Stand: 01.01.2026</p>
     </LegalLayout>
   )
 }
