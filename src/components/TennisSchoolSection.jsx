@@ -35,7 +35,7 @@ export function TennisSchoolSection() {
                   href={leadTrainer.licenseUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="mt-3 inline-flex rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-medium text-emerald-900 transition hover:bg-emerald-100"
+                  className="mt-3 inline-flex rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-medium text-blue-900 transition hover:bg-blue-100"
                 >
                   {leadTrainer.licenseLabel}
                 </a>
@@ -64,7 +64,7 @@ export function TennisSchoolSection() {
                       href={person.licenseUrl}
                       target="_blank"
                       rel="noreferrer"
-                      className="mt-3 inline-flex rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-medium text-emerald-900 transition hover:bg-emerald-100"
+                      className="mt-3 inline-flex rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-medium text-blue-900 transition hover:bg-blue-100"
                     >
                       {person.licenseLabel}
                     </a>

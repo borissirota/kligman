@@ -21,13 +21,13 @@ export function Hero() {
           <div className="mt-8 flex flex-wrap gap-3">
             <a
               href="#tennisschule"
-              className="inline-flex items-center justify-center rounded-md bg-emerald-800 px-5 py-2.5 text-sm font-medium text-white hover:bg-emerald-900"
+              className="inline-flex items-center justify-center rounded-md bg-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-800"
             >
               Tennisschule kennenlernen
             </a>
             <a
               href="#kontakt"
-              className="inline-flex items-center justify-center rounded-md border border-neutral-300 bg-white px-5 py-2.5 text-sm font-medium text-neutral-800 hover:border-emerald-800/40 hover:text-emerald-900"
+              className="inline-flex items-center justify-center rounded-md border border-neutral-300 bg-white px-5 py-2.5 text-sm font-medium text-neutral-800 hover:border-blue-700/40 hover:text-blue-900"
             >
               Kontakt
             </a>
