@@ -50,7 +50,7 @@ export function TrainingOfferSection() {
             <p>{training.seasonsKids}</p>
             <a
               href="#sommer-2026"
-              className="inline-flex items-center justify-center rounded-md bg-green-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-green-800"
+              className="inline-flex items-center justify-center rounded-md bg-[#4169E1] px-5 py-2.5 text-sm font-medium text-white hover:bg-[#3557c7]"
             >
               Sommer 2026
             </a>
