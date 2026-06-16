@@ -111,7 +111,7 @@ export function ContactForm() {
         <button
           type="submit"
           disabled={!form.consent}
-          className="w-full rounded-md bg-green-700 px-5 py-3 text-sm font-medium text-white hover:bg-green-800 disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+          className="w-full rounded-md bg-[#4169E1] px-5 py-3 text-sm font-medium text-white hover:bg-[#3557c7] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
         >
           Nachricht senden
         </button>
