@@ -306,7 +306,5 @@ export const site = {
   legal: {
     impressumNote:
       'Angaben nach § 5 TMG. Bitte bei Änderungen von Anschrift oder Erreichbarkeit aktualisieren.',
-    datenschutzNote:
-      'Es liegt kein vollständiger, rechtlich geprüfter Datenschutztext vor. Diese Seite enthält eine sachliche Grundstruktur; bitte durch eine Rechtsberatung oder Vorlage des Vereins/DTB ergänzen.',
   },
 }
