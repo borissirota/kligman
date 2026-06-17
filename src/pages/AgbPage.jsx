@@ -17,6 +17,9 @@ export function AgbPage() {
         Gegenstand ist die Organisation und Durchführung von Tennistraining in Abstimmung mit dem Verein.
         Individuelle Vereinbarungen treten vorrangig.
       </p>
+      <p className="mt-10 text-neutral-700">
+        Die AGB werden im Laufe der Zeit aktualisiert und ersetzt.
+      </p>
     </LegalLayout>
   )
 }
