@@ -5,12 +5,12 @@ export function TrainingOfferSection() {
   const { contact, training } = site
 
   return (
-    <Section id="trainingsangebot" title={training.title} className="bg-neutral-50/80">
+    <Section id="trainingsangebot" title={training.title} className="bg-neutral-50">
       <div className="grid gap-10 lg:grid-cols-2 lg:items-start lg:gap-12">
         <div className="space-y-8">
           <p className="text-base leading-relaxed text-neutral-700">{training.intro}</p>
 
-          <div className="rounded-lg border border-neutral-200 bg-white p-5 shadow-sm sm:p-6">
+          <div className="rounded-xl border border-neutral-200 bg-white p-5 shadow-md shadow-neutral-900/5 sm:p-6">
             <p className="text-sm font-medium text-neutral-900">{training.unitNote}</p>
             <dl className="mt-4 divide-y divide-neutral-100">
               {training.prices.map((row) => (
@@ -48,10 +48,7 @@ export function TrainingOfferSection() {
 
           <div className="space-y-4 border-t border-neutral-200 pt-8 text-base leading-relaxed text-neutral-700">
             <p>{training.seasonsKids}</p>
-            <a
-              href="#sommer-2026"
-              className="inline-flex items-center justify-center rounded-md bg-[#4169E1] px-5 py-2.5 text-sm font-medium text-white hover:bg-[#3557c7]"
-            >
+            <a href="#sommer-2026" className="btn-primary">
               Sommer 2026
             </a>
             <p>{training.camps}</p>

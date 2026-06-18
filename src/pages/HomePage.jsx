@@ -12,7 +12,7 @@ export function HomePage() {
   return (
     <>
       <Header />
-      <main>
+      <main className="overflow-x-hidden">
         <Hero />
         <TennisSchoolSection />
         <TrainingOfferSection />

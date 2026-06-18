@@ -3,7 +3,7 @@ import { site } from '../data/siteContent'
 
 export function Footer() {
   return (
-    <footer className="border-t border-neutral-200 bg-white px-4 py-10 sm:px-6 lg:px-8">
+    <footer className="border-t border-neutral-200 bg-gradient-to-b from-white to-emerald-50/40 px-4 py-10 sm:px-6 lg:px-8">
       <div className="mx-auto flex max-w-5xl flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex max-w-md items-start gap-3">
           <img

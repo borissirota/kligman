@@ -5,7 +5,7 @@ export function TennisSchoolSection() {
   const [leadTrainer, ...supportTeam] = site.tennisSchool.team
 
   return (
-    <Section id="tennisschule" title={site.tennisSchool.title}>
+    <Section id="tennisschule" title={site.tennisSchool.title} className="bg-white">
       <div className="grid gap-10 lg:grid-cols-2 lg:gap-12">
         <div className="space-y-4 text-base leading-relaxed text-neutral-700">
           <p>{site.tennisSchool.intro}</p>
@@ -13,7 +13,7 @@ export function TennisSchoolSection() {
           <p>{site.tennisSchool.inGermany}</p>
           <p className="text-sm text-neutral-600">{site.tennisSchool.qualifications}</p>
           <p>{site.tennisSchool.teamNote}</p>
-          <div className="rounded-lg border border-neutral-200 bg-neutral-50 px-4 py-4">
+          <div className="rounded-xl border border-emerald-100 bg-gradient-to-br from-emerald-50/80 to-white px-5 py-5 shadow-sm">
             <p className="font-semibold text-neutral-900">{site.tennisSchool.servicesTitle}</p>
             <p className="mt-2">{site.tennisSchool.servicesBody}</p>
           </div>

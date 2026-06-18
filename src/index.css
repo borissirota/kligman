@@ -1,5 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap");
 @import "tailwindcss";
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", system-ui, sans-serif;
+  background-color: #fafaf9;
+  color: #171717;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-[#4169E1] px-5 py-2.5 text-sm font-semibold text-white shadow-md shadow-[#4169E1]/25 transition duration-200 hover:-translate-y-0.5 hover:bg-[#3557c7] hover:shadow-lg hover:shadow-[#4169E1]/30;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-lg border border-neutral-300/80 bg-white/80 px-5 py-2.5 text-sm font-semibold text-neutral-800 shadow-sm backdrop-blur-sm transition duration-200 hover:-translate-y-0.5 hover:border-[#4169E1]/40 hover:text-[#1e3a8a] hover:shadow-md;
+  }
+
+  .section-eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.2em] text-emerald-800;
+  }
+
+  .section-title {
+    @apply mt-2 text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl;
+  }
+
+  .section-accent {
+    @apply mt-3 h-1 w-12 rounded-full bg-gradient-to-r from-emerald-600 to-[#4169E1];
+  }
 }

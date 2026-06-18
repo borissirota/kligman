@@ -5,8 +5,8 @@ export function RegistrationSection() {
   const { registration } = site
 
   return (
-    <Section id="anmeldung" title={registration.title}>
-      <div className="rounded-lg border border-neutral-200 bg-white p-6 shadow-sm sm:p-8">
+    <Section id="anmeldung" title={registration.title} className="bg-neutral-50">
+      <div className="rounded-xl border border-neutral-200 bg-white p-6 shadow-md shadow-neutral-900/5 sm:p-8">
         <p className="text-base leading-relaxed text-neutral-700">{registration.body}</p>
         <div className="mt-6 flex flex-wrap gap-3">
           {registration.pdfs.map((pdf) => (
@@ -15,14 +15,14 @@ export function RegistrationSection() {
               href={pdf.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center rounded-md bg-[#4169E1] px-5 py-2.5 text-sm font-medium text-white hover:bg-[#3557c7]"
+              className="btn-primary"
             >
               {pdf.label}
             </a>
           ))}
           <a
             href="#kontakt"
-            className="inline-flex items-center justify-center rounded-md border border-neutral-300 bg-white px-5 py-2.5 text-sm font-medium text-neutral-800 hover:border-[#4169E1]/40"
+            className="btn-secondary"
           >
             Kontakt
           </a>

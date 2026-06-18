@@ -15,7 +15,7 @@ export function Header() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 border-b border-neutral-200/90 bg-white/95 backdrop-blur-sm">
+    <header className="sticky top-0 z-50 border-b border-neutral-200/80 bg-white/90 shadow-sm shadow-neutral-900/5 backdrop-blur-md">
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <a
           href="#top"
@@ -30,24 +30,27 @@ export function Header() {
             height={56}
             decoding="async"
           />
-          <span className="truncate text-base font-semibold tracking-tight text-neutral-900 sm:text-lg">
+          <span className="truncate text-base font-bold tracking-tight text-neutral-900 sm:text-lg">
             {site.siteName}
           </span>
         </a>
-        <nav className="hidden items-center gap-6 md:flex" aria-label="Hauptnavigation">
+        <nav className="hidden items-center gap-5 lg:flex" aria-label="Hauptnavigation">
           {nav.map((item) => (
             <a
               key={item.href}
               href={item.href}
-              className="text-sm font-medium text-neutral-700 transition-colors hover:text-emerald-800"
+              className="text-sm font-medium text-neutral-600 transition-colors hover:text-emerald-800"
             >
               {item.label}
             </a>
           ))}
+          <a href="#anmeldung" className="btn-primary !px-4 !py-2 !text-xs">
+            Jetzt anmelden
+          </a>
         </nav>
         <button
           type="button"
-          className="inline-flex rounded-md border border-neutral-200 px-3 py-2 text-sm font-medium text-neutral-800 md:hidden"
+          className="inline-flex rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm font-semibold text-neutral-800 shadow-sm transition hover:border-neutral-300 lg:hidden"
           aria-expanded={open}
           aria-controls="mobile-nav"
           onClick={() => setOpen((v) => !v)}
@@ -58,24 +61,33 @@ export function Header() {
       {open && (
         <div
           id="mobile-nav"
-          className="border-t border-neutral-200 bg-white px-4 py-3 md:hidden"
+          className="border-t border-neutral-200 bg-white px-4 py-3 lg:hidden"
         >
-          <ul className="flex flex-col gap-2">
+          <ul className="flex flex-col gap-1">
             {nav.map((item) => (
               <li key={item.href}>
                 <a
                   href={item.href}
-                  className="block rounded-md px-2 py-2 text-sm font-medium text-neutral-800 hover:bg-neutral-50"
+                  className="block rounded-lg px-3 py-2.5 text-sm font-medium text-neutral-800 transition hover:bg-emerald-50 hover:text-emerald-900"
                   onClick={() => setOpen(false)}
                 >
                   {item.label}
                 </a>
               </li>
             ))}
+            <li className="pt-2">
+              <a
+                href="#anmeldung"
+                className="btn-primary w-full"
+                onClick={() => setOpen(false)}
+              >
+                Jetzt anmelden
+              </a>
+            </li>
             <li>
               <Link
                 to="/impressum"
-                className="block rounded-md px-2 py-2 text-sm font-medium text-neutral-600 hover:bg-neutral-50"
+                className="block rounded-lg px-3 py-2.5 text-sm font-medium text-neutral-600 transition hover:bg-neutral-50"
                 onClick={() => setOpen(false)}
               >
                 Impressum
