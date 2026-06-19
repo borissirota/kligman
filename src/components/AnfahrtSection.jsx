@@ -18,6 +18,16 @@ export function AnfahrtSection() {
           <br />
           {club.zipCity}
         </p>
+        <p className="mt-4">
+          <a
+            href={anfahrt.mapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center text-sm font-medium text-emerald-900 hover:underline"
+          >
+            {anfahrt.mapsLabel}
+          </a>
+        </p>
         <p className="mt-4 text-sm text-neutral-700">
           Tel.:{' '}
           <a href={`tel:${club.phoneTel}`} className="font-medium text-emerald-900 hover:underline">
