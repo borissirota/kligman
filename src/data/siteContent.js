@@ -1,5 +1,4 @@
 import imgOutdoorPortrait from '../../content/WhatsApp Image 2026-03-19 at 13.21.48.jpeg'
-import imgHero from '../../content/WhatsApp Image 2026-03-20 at 08.28.26 (2).jpeg'
 import imgIndoorPortrait from '../../content/WhatsApp Image 2026-03-20 at 08.28.53.jpeg'
 import imgTrainingAction from '../../content/WhatsApp Image 2026-03-20 at 08.32.31.jpeg'
 import imgThassiloHaun from '../../content/Thassilo_Haun - Co Trainer.jpg'
@@ -32,16 +31,10 @@ export const site = {
   images: {
     logo,
     outdoorPortrait: imgOutdoorPortrait,
-    hero: imgHero,
     indoorPortrait: imgIndoorPortrait,
     trainingAction: imgTrainingAction,
     thassiloHaun: imgThassiloHaun,
     annegretGrimm: imgAnnegretGrimm,
-  },
-  hero: {
-    title: 'Professionelles Tennistraining in Schäftlarn',
-    subtitle:
-      'Erfahrung aus Spitzensport und jahrzehntelanger Vereinsarbeit – für Kinder, Jugendliche und Erwachsene.',
   },
   tennisSchool: {
     title: 'Tennisschule',

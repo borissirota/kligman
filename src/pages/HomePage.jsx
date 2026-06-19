@@ -1,5 +1,4 @@
 import { Header } from '../components/Header'
-import { Hero } from '../components/Hero'
 import { TennisSchoolSection } from '../components/TennisSchoolSection'
 import { TrainingOfferSection } from '../components/TrainingOfferSection'
 import { Summer2026Section } from '../components/Summer2026Section'
@@ -12,8 +11,7 @@ export function HomePage() {
   return (
     <>
       <Header />
-      <main>
-        <Hero />
+      <main id="top">
         <TennisSchoolSection />
         <TrainingOfferSection />
         <Summer2026Section />
