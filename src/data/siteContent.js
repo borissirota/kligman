@@ -275,6 +275,8 @@ export const site = {
   anfahrt: {
     title: 'Anfahrt',
     intro: 'Das Training findet am Sportgelände des TSV Schäftlarn statt.',
+    mapsUrl: 'https://maps.app.goo.gl/rRhPVM2L3vxY9vMJA',
+    mapsLabel: 'Route in Google Maps',
     club: {
       name: 'TSV Schäftlarn 1921 e.V.',
       street: 'Wangener Weg 17',
