@@ -1,7 +1,5 @@
 import { LegalLayout } from './LegalLayout'
 
-// Hello
-
 export function AgbPage() {
   return (
     <LegalLayout title="Allgemeine Geschäftsbedingungen (AGB)">
