@@ -23,7 +23,7 @@ export function Hero() {
               href="#tennisschule"
               className="inline-flex items-center justify-center rounded-md bg-[#4169E1] px-5 py-2.5 text-sm font-medium text-white hover:bg-[#3557c7]"
             >
-              Tennisschule kennenlernen
+              Tennisschule kennenlernen und besuchen
             </a>
             <a
               href="#kontakt"
