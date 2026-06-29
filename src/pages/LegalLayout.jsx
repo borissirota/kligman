@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { Footer } from '../components/Footer'
 import { site } from '../data/siteContent'
 
-export function LegalLayout({ title, children }) {
+export function LegalLayout({ title, children, showContactButton = false }) {
   return (
     <div className="min-h-screen bg-white text-neutral-900">
       <div className="border-b border-neutral-200 bg-white px-4 py-4 sm:px-6 lg:px-8">
@@ -21,6 +21,14 @@ export function LegalLayout({ title, children }) {
             />
             <span>← Zur Startseite</span>
           </Link>
+          {showContactButton ? (
+            <a
+              href="/#kontakt"
+              className="inline-flex shrink-0 items-center justify-center rounded-md border border-neutral-300 bg-white px-4 py-2 text-sm font-medium text-neutral-800 hover:border-[#4169E1]/40 hover:text-[#1e3a8a]"
+            >
+              Kontakt
+            </a>
+          ) : null}
         </div>
       </div>
       <article className="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
