@@ -36,17 +36,7 @@ export function TrainingOfferSection() {
               Rufen Sie uns an
             </a>
             {' '}
-            oder{' '}
-            <span className="inline-flex flex-wrap items-center gap-3">
-              <span>bitte kontaktieren Sie mich</span>
-              <a
-                href="#kontakt"
-                className="inline-flex items-center justify-center rounded-md border border-neutral-300 bg-white px-5 py-2.5 text-sm font-medium text-neutral-800 hover:border-[#4169E1]/40"
-              >
-                Kontakt
-              </a>
-            </span>
-            . Wir freuen uns auf die erste Trainingsstunde mit Ihnen!
+            oder bitte kontaktieren Sie mich. Wir freuen uns auf die erste Trainingsstunde mit Ihnen!
           </p>
 
           <div className="space-y-4 border-t border-neutral-200 pt-8 text-base leading-relaxed text-neutral-700">
