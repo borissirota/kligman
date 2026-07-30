@@ -8,7 +8,7 @@ export function Section({ id, title, eyebrow, children, className = '' }) {
         {(eyebrow || title) && (
           <header className="mb-8 sm:mb-10">
             {eyebrow && (
-              <p className="text-sm font-medium tracking-wide text-emerald-800">{eyebrow}</p>
+              <p className="text-sm font-medium tracking-wide text-sky-600">{eyebrow}</p>
             )}
             {title && (
               <h2 className="mt-1 text-2xl font-semibold tracking-tight text-neutral-900 sm:text-3xl">

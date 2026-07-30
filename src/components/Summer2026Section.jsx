@@ -21,7 +21,7 @@ export function Summer2026Section() {
             >
               <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-4 text-left">
                 <span className="text-base font-semibold text-neutral-900">{section.title}</span>
-                <span aria-hidden="true" className="text-base font-medium text-emerald-800">
+                <span aria-hidden="true" className="text-base font-medium text-sky-600">
                   <span className="group-open:hidden">+</span>
                   <span className="hidden group-open:inline">−</span>
                 </span>
@@ -35,7 +35,7 @@ export function Summer2026Section() {
                       className="rounded-lg border border-neutral-200 bg-neutral-50 p-4"
                     >
                       {item.date ? (
-                        <p className="text-sm font-medium text-emerald-800">{item.date}</p>
+                        <p className="text-sm font-medium text-sky-600">{item.date}</p>
                       ) : null}
                       {item.title ? (
                         <h3 className="mt-1 text-base font-semibold text-neutral-900">{item.title}</h3>
@@ -44,7 +44,7 @@ export function Summer2026Section() {
                         <ul className="mt-3 space-y-2 text-sm leading-relaxed text-neutral-700">
                           {item.bullets.map((bullet) => (
                             <li key={bullet} className="flex gap-2">
-                              <span className="mt-[0.45rem] h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-700" />
+                              <span className="mt-[0.45rem] h-1.5 w-1.5 shrink-0 rounded-full bg-sky-600" />
                               <span>{bullet}</span>
                             </li>
                           ))}

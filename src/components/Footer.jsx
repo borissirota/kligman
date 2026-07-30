@@ -23,13 +23,13 @@ export function Footer() {
           </div>
         </div>
         <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm" aria-label="Fußnavigation">
-          <Link to="/impressum" className="text-neutral-600 hover:text-emerald-900">
+          <Link to="/impressum" className="text-neutral-600 hover:text-sky-700">
             Impressum
           </Link>
-          <Link to="/datenschutz" className="text-neutral-600 hover:text-emerald-900">
+          <Link to="/datenschutz" className="text-neutral-600 hover:text-sky-700">
             Datenschutz
           </Link>
-          <Link to="/agb" className="text-neutral-600 hover:text-emerald-900">
+          <Link to="/agb" className="text-neutral-600 hover:text-sky-700">
             AGB
           </Link>
         </nav>

@@ -8,7 +8,7 @@ export function ContactSection() {
       <p className="mb-8 text-base text-neutral-700">{site.contactSection.intro}</p>
       <div className="grid gap-10 lg:grid-cols-5 lg:gap-12">
         <address className="not-italic lg:col-span-2">
-          <p className="text-sm font-semibold uppercase tracking-wide text-emerald-800">Adresse</p>
+          <p className="text-sm font-semibold uppercase tracking-wide text-sky-600">Adresse</p>
           <p className="mt-2 text-base text-neutral-800">
             {site.trainer.name}
             <br />
@@ -16,20 +16,20 @@ export function ContactSection() {
             <br />
             {site.contact.zipCity}
           </p>
-          <p className="mt-6 text-sm font-semibold uppercase tracking-wide text-emerald-800">Mobil</p>
+          <p className="mt-6 text-sm font-semibold uppercase tracking-wide text-sky-600">Mobil</p>
           <p className="mt-2">
             <a
               href={`tel:${site.contact.mobileTel}`}
-              className="text-lg font-medium text-neutral-900 hover:text-emerald-900"
+              className="text-lg font-medium text-neutral-900 hover:text-sky-700"
             >
               {site.contact.mobileDisplay}
             </a>
           </p>
-          <p className="mt-6 text-sm font-semibold uppercase tracking-wide text-emerald-800">E-Mail</p>
+          <p className="mt-6 text-sm font-semibold uppercase tracking-wide text-sky-600">E-Mail</p>
           <p className="mt-2">
             <a
               href={`mailto:${site.contact.email}`}
-              className="text-lg font-medium text-neutral-900 hover:text-emerald-900"
+              className="text-lg font-medium text-neutral-900 hover:text-sky-700"
             >
               {site.contact.email}
             </a>

@@ -16,17 +16,17 @@ export function ImpressumPage() {
       <h2 className="mt-10 text-lg font-semibold text-neutral-900">Kontakt</h2>
       <p className="mt-4">
         Tel.:{' '}
-        <a href={`tel:${site.contact.phoneTel}`} className="text-emerald-900 hover:underline">
+        <a href={`tel:${site.contact.phoneTel}`} className="text-sky-700 hover:underline">
           {site.contact.phoneDisplay}
         </a>
         <br />
         Mobil:{' '}
-        <a href={`tel:${site.contact.mobileTel}`} className="text-emerald-900 hover:underline">
+        <a href={`tel:${site.contact.mobileTel}`} className="text-sky-700 hover:underline">
           {site.contact.mobileDisplay}
         </a>
         <br />
         E-Mail:{' '}
-        <a href={`mailto:${site.contact.email}`} className="text-emerald-900 hover:underline">
+        <a href={`mailto:${site.contact.email}`} className="text-sky-700 hover:underline">
           {site.contact.email}
         </a>
       </p>

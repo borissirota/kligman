@@ -16,17 +16,17 @@ export function DatenschutzPage() {
         {site.contact.zipCity}
         <br />
         Tel.:{' '}
-        <a href={`tel:${site.contact.phoneTel}`} className="text-emerald-900 hover:underline">
+        <a href={`tel:${site.contact.phoneTel}`} className="text-sky-700 hover:underline">
           {site.contact.phoneDisplay}
         </a>
         <br />
         Mobil:{' '}
-        <a href={`tel:${site.contact.mobileTel}`} className="text-emerald-900 hover:underline">
+        <a href={`tel:${site.contact.mobileTel}`} className="text-sky-700 hover:underline">
           {site.contact.mobileDisplay}
         </a>
         <br />
         E-Mail:{' '}
-        <a href={`mailto:${site.contact.email}`} className="text-emerald-900 hover:underline">
+        <a href={`mailto:${site.contact.email}`} className="text-sky-700 hover:underline">
           {site.contact.email}
         </a>
       </p>
@@ -39,7 +39,7 @@ export function DatenschutzPage() {
       <p className="mt-4 text-neutral-700">
         Wenn Sie uns per Formular Anfragen zukommen lassen, öffnet sich Ihr E-Mail-Programm mit einer Nachricht
         an{' '}
-        <a href={`mailto:${site.contact.email}`} className="text-emerald-900 hover:underline">
+        <a href={`mailto:${site.contact.email}`} className="text-sky-700 hover:underline">
           {site.contact.email}
         </a>
         . Die Angaben aus dem Formular werden in diese E-Mail übernommen und zur Bearbeitung Ihrer Anfrage

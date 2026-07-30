@@ -10,7 +10,7 @@ export function AnfahrtSection() {
       <p className="text-base leading-relaxed text-neutral-700">{anfahrt.intro}</p>
 
       <div className="mt-8 rounded-lg border border-neutral-200 bg-neutral-50/80 p-5 sm:p-6">
-        <h3 className="text-sm font-semibold uppercase tracking-wide text-emerald-800">Sportgelände (Verein)</h3>
+        <h3 className="text-sm font-semibold uppercase tracking-wide text-sky-600">Sportgelände (Verein)</h3>
         <p className="mt-3 text-base text-neutral-800">
           {club.name}
           <br />
@@ -20,14 +20,14 @@ export function AnfahrtSection() {
         </p>
         <p className="mt-4 text-sm text-neutral-700">
           Tel.:{' '}
-          <a href={`tel:${club.phoneTel}`} className="font-medium text-emerald-900 hover:underline">
+          <a href={`tel:${club.phoneTel}`} className="font-medium text-sky-700 hover:underline">
             {club.phone}
           </a>
           <br />
           Fax: {club.fax}
           <br />
           E-Mail:{' '}
-          <a href={`mailto:${club.email}`} className="font-medium text-emerald-900 hover:underline">
+          <a href={`mailto:${club.email}`} className="font-medium text-sky-700 hover:underline">
             {club.email}
           </a>
         </p>

@@ -9,7 +9,7 @@ export function LegalLayout({ title, children }) {
         <div className="mx-auto flex max-w-3xl items-center justify-between gap-4">
           <Link
             to="/"
-            className="flex items-center gap-2.5 text-sm font-medium text-emerald-900 hover:underline"
+            className="flex items-center gap-2.5 text-sm font-medium text-sky-700 hover:underline"
           >
             <img
               src={site.images.logo}

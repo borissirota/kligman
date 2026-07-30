@@ -9,7 +9,7 @@ export function Hero() {
     >
       <div className="mx-auto grid max-w-5xl gap-8 px-4 py-12 sm:px-6 sm:py-16 lg:grid-cols-2 lg:items-center lg:gap-12 lg:px-8 lg:py-20">
         <div className="order-2 lg:order-1">
-          <p className="text-sm font-medium uppercase tracking-wider text-emerald-800">
+          <p className="text-sm font-medium uppercase tracking-wider text-sky-600">
             {site.trainer.club}
           </p>
           <h1 className="mt-2 text-3xl font-semibold leading-tight tracking-tight text-neutral-900 sm:text-4xl lg:text-[2.35rem]">
@@ -21,13 +21,13 @@ export function Hero() {
           <div className="mt-8 flex flex-wrap gap-3">
             <a
               href="#tennisschule"
-              className="inline-flex items-center justify-center rounded-md bg-emerald-800 px-5 py-2.5 text-sm font-medium text-white hover:bg-emerald-900"
+              className="inline-flex items-center justify-center rounded-md bg-sky-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-sky-700"
             >
               Tennisschule kennenlernen
             </a>
             <a
               href="#kontakt"
-              className="inline-flex items-center justify-center rounded-md border border-neutral-300 bg-white px-5 py-2.5 text-sm font-medium text-neutral-800 hover:border-emerald-800/40 hover:text-emerald-900"
+              className="inline-flex items-center justify-center rounded-md border border-neutral-300 bg-white px-5 py-2.5 text-sm font-medium text-neutral-800 hover:border-sky-600/40 hover:text-sky-700"
             >
               Kontakt
             </a>

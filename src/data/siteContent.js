@@ -8,6 +8,7 @@ import pdfHaunDtbATrainer from '../../content/Haun_DTB_A_Trainer_Logo.pdf'
 import pdfKligmanDtbATrainer from '../../content/Kligman_DTB_A_Trainer_Schild.pdf'
 import pdfSommertraining2026 from '../../content/ts_sommertraining_2026.pdf'
 import pdfSommercamp2026 from '../../content/Sommercamp 2026 Anmeldung.pdf'
+import pdfWintertraining2026 from '../../content/Anmeldung Wintertraining 2026-2027.pdf'
 import logo from '../../content/logo.jpeg'
 
 /** Quelle: gescannte Dokumente und Fotos im Ordner `content` */
@@ -264,13 +265,14 @@ export const site = {
   registration: {
     title: 'Anmeldung',
     body:
-      'Zur Anmeldung zum Sommertraining 2026 und zum Sommercamp 2026 finden Sie alle Informationen in den PDF-Dokumenten (Termine, Ablauf, Hinweise). Bitte öffnen Sie die jeweilige Datei und folgen Sie den Angaben dort.',
+      'Zur Anmeldung zum Sommertraining 2026, zum Sommercamp 2026 und zum Wintertraining 2026/2027 finden Sie alle Informationen in den PDF-Dokumenten (Termine, Ablauf, Hinweise). Bitte öffnen Sie die jeweilige Datei und folgen Sie den Angaben dort.',
     pdfs: [
       { url: pdfSommertraining2026, label: 'Sommertraining 2026' },
       { url: pdfSommercamp2026, label: 'Sommercamp 2026' },
+      { url: pdfWintertraining2026, label: 'Wintertraining 2026/2027' },
     ],
     note:
-      'Für Rückfragen zur Anmeldung oder zu anderen Angeboten (z. B. Wintertraining, Camps, Einzelstunden) erreichen Sie mich telefonisch oder über das Kontaktformular.',
+      'Für Rückfragen zur Anmeldung oder zu anderen Angeboten (z. B. Camps, Einzelstunden) erreichen Sie mich telefonisch oder über das Kontaktformular.',
   },
   anfahrt: {
     title: 'Anfahrt',
