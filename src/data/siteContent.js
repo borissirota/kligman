@@ -310,5 +310,7 @@ export const site = {
   legal: {
     impressumNote:
       'Angaben nach § 5 TMG. Bitte bei Änderungen von Anschrift oder Erreichbarkeit aktualisieren.',
+    agbNote:
+      'Es liegt kein vollständiger AGB-Text vor. Der folgende Abschnitt ist ein Platzhalter bis zur Ergänzung durch den Verein. &',
   },
 }
