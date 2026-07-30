@@ -277,6 +277,8 @@ export const site = {
   anfahrt: {
     title: 'Anfahrt',
     intro: 'Das Training findet am Sportgelände des TSV Schäftlarn statt.',
+    mapsUrl: 'https://maps.app.goo.gl/rRhPVM2L3vxY9vMJA',
+    mapsLabel: 'Route in Google Maps',
     club: {
       name: 'TSV Schäftlarn 1921 e.V.',
       street: 'Wangener Weg 17',
@@ -308,9 +310,5 @@ export const site = {
   legal: {
     impressumNote:
       'Angaben nach § 5 TMG. Bitte bei Änderungen von Anschrift oder Erreichbarkeit aktualisieren.',
-    datenschutzNote:
-      'Es liegt kein vollständiger, rechtlich geprüfter Datenschutztext vor. Diese Seite enthält eine sachliche Grundstruktur; bitte durch eine Rechtsberatung oder Vorlage des Vereins/DTB ergänzen.',
-    agbNote:
-      'Es liegt kein vollständiger AGB-Text vor. Der folgende Abschnitt ist ein Platzhalter bis zur Ergänzung durch den Verein.',
   },
 }

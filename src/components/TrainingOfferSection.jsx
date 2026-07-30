@@ -31,18 +31,21 @@ export function TrainingOfferSection() {
           <p className="text-base leading-relaxed text-neutral-800">
             <a
               href={`tel:${contact.phoneTel}`}
-              className="font-medium text-sky-700 underline-offset-2 hover:underline"
+              className="font-medium text-emerald-900 underline-offset-2 hover:underline"
             >
               Rufen Sie uns an
             </a>
             {' '}
             oder{' '}
-            <a
-              href="#kontakt"
-              className="font-medium text-sky-700 underline-offset-2 hover:underline"
-            >
-              kontaktieren Sie uns
-            </a>
+            <span className="inline-flex flex-wrap items-center gap-3">
+              <span>bitte kontaktieren Sie mich</span>
+              <a
+                href="#kontakt"
+                className="inline-flex items-center justify-center rounded-md border border-neutral-300 bg-white px-5 py-2.5 text-sm font-medium text-neutral-800 hover:border-[#4169E1]/40"
+              >
+                Kontakt
+              </a>
+            </span>
             . Wir freuen uns auf die erste Trainingsstunde mit Ihnen!
           </p>
 
@@ -50,7 +53,7 @@ export function TrainingOfferSection() {
             <p>{training.seasonsKids}</p>
             <a
               href="#sommer-2026"
-              className="inline-flex items-center justify-center rounded-md bg-sky-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-sky-700"
+              className="inline-flex items-center justify-center rounded-md bg-[#4169E1] px-5 py-2.5 text-sm font-medium text-white hover:bg-[#3557c7]"
             >
               Sommer 2026
             </a>

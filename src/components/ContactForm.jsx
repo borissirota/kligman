@@ -45,7 +45,7 @@ export function ContactForm() {
           autoComplete="name"
           value={form.name}
           onChange={update}
-          className="mt-1 w-full rounded-md border border-neutral-300 px-3 py-2 text-neutral-900 shadow-sm focus:border-sky-600 focus:outline-none focus:ring-1 focus:ring-sky-600"
+          className="mt-1 w-full rounded-md border border-neutral-300 px-3 py-2 text-neutral-900 shadow-sm focus:border-emerald-800 focus:outline-none focus:ring-1 focus:ring-emerald-800"
         />
       </div>
       <div>
@@ -59,7 +59,7 @@ export function ContactForm() {
           autoComplete="email"
           value={form.email}
           onChange={update}
-          className="mt-1 w-full rounded-md border border-neutral-300 px-3 py-2 text-neutral-900 shadow-sm focus:border-sky-600 focus:outline-none focus:ring-1 focus:ring-sky-600"
+          className="mt-1 w-full rounded-md border border-neutral-300 px-3 py-2 text-neutral-900 shadow-sm focus:border-emerald-800 focus:outline-none focus:ring-1 focus:ring-emerald-800"
         />
       </div>
       <div>
@@ -73,7 +73,7 @@ export function ContactForm() {
           autoComplete="tel"
           value={form.phone}
           onChange={update}
-          className="mt-1 w-full rounded-md border border-neutral-300 px-3 py-2 text-neutral-900 shadow-sm focus:border-sky-600 focus:outline-none focus:ring-1 focus:ring-sky-600"
+          className="mt-1 w-full rounded-md border border-neutral-300 px-3 py-2 text-neutral-900 shadow-sm focus:border-emerald-800 focus:outline-none focus:ring-1 focus:ring-emerald-800"
         />
       </div>
       <div className="sm:col-span-2">
@@ -86,7 +86,7 @@ export function ContactForm() {
           rows={5}
           value={form.message}
           onChange={update}
-          className="mt-1 w-full rounded-md border border-neutral-300 px-3 py-2 text-neutral-900 shadow-sm focus:border-sky-600 focus:outline-none focus:ring-1 focus:ring-sky-600"
+          className="mt-1 w-full rounded-md border border-neutral-300 px-3 py-2 text-neutral-900 shadow-sm focus:border-emerald-800 focus:outline-none focus:ring-1 focus:ring-emerald-800"
         />
       </div>
       <div className="sm:col-span-2">
@@ -96,11 +96,11 @@ export function ContactForm() {
             name="consent"
             checked={form.consent}
             onChange={update}
-            className="mt-0.5 size-4 rounded border-neutral-300 text-sky-600 focus:ring-sky-600"
+            className="mt-0.5 size-4 rounded border-neutral-300 text-emerald-800 focus:ring-emerald-800"
           />
           <span>
             Ich habe die{' '}
-            <a href="/datenschutz" className="text-sky-700 underline-offset-2 hover:underline">
+            <a href="/datenschutz" className="text-emerald-900 underline-offset-2 hover:underline">
               Datenschutzhinweise
             </a>{' '}
             zur Kenntnis genommen.
@@ -111,23 +111,23 @@ export function ContactForm() {
         <button
           type="submit"
           disabled={!form.consent}
-          className="w-full rounded-md bg-sky-600 px-5 py-3 text-sm font-medium text-white hover:bg-sky-700 disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+          className="w-full rounded-md bg-[#4169E1] px-5 py-3 text-sm font-medium text-white hover:bg-[#3557c7] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
         >
           Nachricht senden
         </button>
       </div>
       {sent && (
-        <p className="sm:col-span-2 rounded-md border border-sky-700/20 bg-sky-50/80 px-4 py-3 text-sm text-neutral-800">
+        <p className="sm:col-span-2 rounded-md border border-emerald-900/20 bg-emerald-50/80 px-4 py-3 text-sm text-neutral-800">
           Vielen Dank. Ihr E-Mail-Programm sollte eine Nachricht an{' '}
-          <a href={`mailto:${site.contact.email}`} className="font-medium text-sky-700">
+          <a href={`mailto:${site.contact.email}`} className="font-medium text-emerald-900">
             {site.contact.email}
           </a>{' '}
           öffnen – falls nicht, erreichen Sie uns telefonisch (Tel.{' '}
-          <a href={`tel:${site.contact.phoneTel}`} className="font-medium text-sky-700">
+          <a href={`tel:${site.contact.phoneTel}`} className="font-medium text-emerald-900">
             {site.contact.phoneDisplay}
           </a>
           , Mobil{' '}
-          <a href={`tel:${site.contact.mobileTel}`} className="font-medium text-sky-700">
+          <a href={`tel:${site.contact.mobileTel}`} className="font-medium text-emerald-900">
             {site.contact.mobileDisplay}
           </a>
           ).
