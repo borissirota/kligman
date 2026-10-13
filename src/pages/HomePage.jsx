@@ -6,6 +6,7 @@ import { Summer2026Section } from '../components/Summer2026Section'
 import { RegistrationSection } from '../components/RegistrationSection'
 import { AnfahrtSection } from '../components/AnfahrtSection'
 import { ContactSection } from '../components/ContactSection'
+import { PotenzialSection } from '../components/PotenzialSection'
 import { Footer } from '../components/Footer'
 
 export function HomePage() {
@@ -20,6 +21,7 @@ export function HomePage() {
         <RegistrationSection />
         <AnfahrtSection />
         <ContactSection />
+        <PotenzialSection />
       </main>
       <Footer />
     </>
