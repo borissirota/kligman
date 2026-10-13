@@ -312,7 +312,7 @@ export const site = {
     intro:
       'Potenzial Schule bietet Kindern und Jugendlichen Online-Unterricht in Schulfächern und Wissen fürs Leben – von Mathematik und Sprachen bis zu Geld, KI und Kommunikation.',
     url: 'https://potenzial.schule/',
-    ctaLabel: 'POTENZIAL entdecken →',
+    ctaLabel: 'POTENZIAL Schule entdecken →',
   },
   legal: {
     impressumNote:
