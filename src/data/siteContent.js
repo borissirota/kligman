@@ -308,9 +308,9 @@ export const site = {
     intro: 'Fragen zum Training? Schreiben Sie uns oder rufen Sie an.',
   },
   potenzial: {
-    title: 'POTENZIAL',
+    title: 'Auch abseits des Tennisplatzes Potenziale entdecken',
     intro:
-      'POTENZIAL bietet Kindern und Jugendlichen Online-Unterricht in Schulfächern und Wissen fürs Leben – von Mathematik und Sprachen bis zu Geld, KI und Kommunikation.',
+      'Potenzial Schule bietet Kindern und Jugendlichen Online-Unterricht in Schulfächern und Wissen fürs Leben – von Mathematik und Sprachen bis zu Geld, KI und Kommunikation.',
     url: 'https://potenzial.schule/',
     ctaLabel: 'POTENZIAL entdecken →',
   },
