@@ -307,6 +307,13 @@ export const site = {
     title: 'Kontakt',
     intro: 'Fragen zum Training? Schreiben Sie uns oder rufen Sie an.',
   },
+  potenzial: {
+    title: 'Auch abseits des Tennisplatzes Potenziale entdecken',
+    intro:
+      'Potenzial Schule bietet Kindern und Jugendlichen Online-Unterricht in Schulfächern und Wissen fürs Leben – von Mathematik und Sprachen bis zu Geld, KI und Kommunikation.',
+    url: 'https://potenzial.schule/',
+    ctaLabel: 'POTENZIAL Schule entdecken →',
+  },
   legal: {
     impressumNote:
       'Angaben nach § 5 TMG. Bitte bei Änderungen von Anschrift oder Erreichbarkeit aktualisieren.',
